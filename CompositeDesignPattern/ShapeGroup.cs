@@ -2,7 +2,7 @@
 {
     public class ShapeGroup : IShape
     {
-        private List<IShape> shapes = new List<IShape>();
+        private List<IShape> shapes = new();
 
         public void Add(IShape shape)
             => shapes.Add(shape);
